@@ -22,7 +22,7 @@ setopt PROMPT_SUBST
 PROMPT='%F{green}%~%f %F{red}${vcs_info_msg_0_}%f%F{green}> %f'
 
 # ls coloring
-alias ls='ls -G'
+alias ls='ls --color'
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
