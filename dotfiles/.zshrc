@@ -23,8 +23,6 @@ PROMPT='%F{green}%~%f %F{red}${vcs_info_msg_0_}%f%F{green}> %f'
 
 # ls coloring
 alias ls='ls --color'
-export CLICOLOR=1
-export LSCOLORS=GxFxCxDxBxegedabagaced
 
 # history seraches text entered in prompt
 autoload -U history-search-end
